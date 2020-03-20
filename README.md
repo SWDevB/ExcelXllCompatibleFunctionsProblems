@@ -19,6 +19,7 @@ Another approach could be to explicitly enable XLL compatible mode only for cert
 The following versions have this issue
 - Office 365 ProPlus Version 2002 (Build 12527.20278 Click-to-Run) Monthly Channel
 - Office Online
+
 This version it seems doesn't
 - Office 365 ProPlus Version 2004 (Build 12711.20000 Click-to-Run) Office Insider
 
