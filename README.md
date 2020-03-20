@@ -2,13 +2,13 @@
 
 Enabling of XLL compatible functions prevents all functions from working as soon as one not supported function is added.
 
-1. Run the project as it is. It should work.
-1. Include the commented part in the manifest.xml!
-1. Run the project, loading the custom functions should fail.
+1. Run the project as it is. It should work, so ADD, CLOCK and INCREMENT functions are available and working
+1. Include the commented part (EquivalentAddins) in the manifest.xml!
+1. Run the project, loading the custom functions should fail. None of the above mentioned fuctions is available.
 1. Remove the increment and clock function from the functions.ts file
-1. Run the project, it should work again.
+1. Run the project, it should work again. ADD function is available again.
 
-So it seems some of the functionallity used by the increment and clock functions break the compatibility mode.
+So, it seems some of the functionallity used by the increment and clock functions break the compatibility mode.
 Invocation isn't working at all for XLL compatible functions, or only certain ways to use it?
 
 Another approach could be to explicitly enable XLL compatible mode only for certain functions.
